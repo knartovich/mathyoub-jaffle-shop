@@ -29,6 +29,8 @@ models:
         data_tests:
           - accepted_values:
               values: ["new", "returning"]
+              config:
+                severity: error
 
 semantic_models:
   - name: customers
