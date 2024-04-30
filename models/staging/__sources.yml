@@ -6,7 +6,7 @@ sources:
     description: E-commerce data for the Jaffle Shop
     freshness:
       warn_after:
-        count: 24
+        count: 1
         period: hour
     tables:
       - name: raw_customers
