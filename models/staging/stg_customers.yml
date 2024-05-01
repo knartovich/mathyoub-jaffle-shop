@@ -4,7 +4,7 @@ models:
     columns:
       - name: customer_id
         description: The unique key for each customer.
-        data_tests:
+        tests:
           - not_null
           - unique
           - accepted_values:
